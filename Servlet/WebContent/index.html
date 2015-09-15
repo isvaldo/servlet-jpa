@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de exemplo</title>
+</head>
+<body>
+<div id="container">
+    <header>
+    </header>
+    <!-- menu-->
+    <nav>
+        <ul>
+
+        </ul>
+    </nav>
+
+    <main role="main">
+        <section class="center">
+            <form id="contactform" action="formulario" onsubmit="">
+                <h3>Preencha o formulario</h3>
+                <fieldset>
+                    <legend>Entre em contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <label for="email">Email:</label><span id="msg_email"></span>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento" placeholder="nascimento" required>       
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="cidade" required>             
+                    <input type="submit" value="Send Message" id="sendbutton">
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2015 Isvaldo</p>
+    </footer>
+</div>
+<!-- fecha container -->
+</body>
+</html>
